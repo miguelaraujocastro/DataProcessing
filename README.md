@@ -31,5 +31,5 @@ The project includes:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/user/repository.git
-   cd repository
+   git clone https://github.com/miguelaraujocastro/DataProcessing.git
+   cd DataProcessing
