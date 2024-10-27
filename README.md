@@ -1,39 +1,33 @@
-# Socioeconomic Situation and Health Indicators - Data Lakehouse Project
+# Situação Socioeconómica e Indicadores de Saúde - Projeto Data Lakehouse
 
-Projeto realizado para a Unidade Curricular de Engenharia de Dados para Apoio à Tomada de Decisão. Este projeto prático tem como objetivo implementar e estruturar dados sobre um determinado tema em um Data Lakehouse, bem como realizar uma análise analítica desses dados.
+Projeto realizado no âmbito da Unidade Curricular de Engenharia de Dados para Apoio à Tomada de Decisão. O objetivo é estruturar e analisar dados num Data Lakehouse, com foco na **Situação Socioeconómica de uma População e o seu Impacto nos Indicadores de Saúde**.
 
-## Tema Central do Projeto
+## Conjuntos de Dados Utilizados
 
-O projeto aborda a **Situação Socioeconômica de uma População e seu Impacto nos Indicadores de Saúde Correspondentes**. O tema foi desenvolvido utilizando um conjunto de dados central e quatro conjuntos adicionais, todos relacionados ao conjunto de dados principal. Os temas abordados são:
-
-1. **Estatísticas Populacionais (conjunto de dados central)**
-2. **Álcool** - Impacto do consumo de álcool no mundo
-3. **Covid-19** - Mortes e casos relatados de Covid-19 por país
-4. **Desemprego** - Taxa de desemprego ao longo dos últimos 31 anos
+1. **Estatísticas Populacionais** (conjunto de dados central)
+2. **Álcool** - Impacto do consumo a nível mundial
+3. **Covid-19** - Mortes e casos reportados por país
+4. **Desemprego** - Taxa nos últimos 31 anos
 5. **Salário Mínimo**
 
 ## Estrutura do Projeto
 
-O projeto é composto por várias etapas de processamento de dados, incluindo:
+O projeto inclui:
 
-1. **Análise de Qualidade dos Dados** - Avaliação da qualidade dos conjuntos de dados relacionados aos diferentes temas e identificação de possíveis objetivos de análise.
-2. **Implementação do Data Lakehouse** - Utilização de uma metodologia de três camadas DeltaLake:
-   - **Bronze**: Armazenamento dos dados brutos.
-   - **Silver**: Limpeza e transformação dos dados.
-   - **Gold**: Dados prontos para análise e geração de insights.
-3. **Desenvolvimento de Dashboards** - Três dashboards foram criados para analisar e interpretar os dados de forma mais eficiente e intuitiva, com foco nos respectivos temas.
+- **Análise de Qualidade dos Dados** e processamento em três camadas:
+  - **Bronze**: Dados brutos
+  - **Silver**: Dados limpos e transformados
+  - **Gold**: Dados prontos para análise
+- **Dashboards** para visualização dos resultados
 
-## Estrutura do Repositório
+## Organização das Pastas
 
-O repositório contém as seguintes pastas e arquivos:
+- **/CSVs**: Dados em formato CSV
+- **/JupyterFiles**: Notebooks de desenvolvimento
+- **/TableauFiles**: Dashboards em Tableau
+- Documentação adicional (diagramas e questões analíticas)
 
-- **/data**: Contém os arquivos CSV utilizados no projeto.
-- **/code**: Código fonte para o processamento de dados e análise.
-- **/notebooks**: Notebooks com a documentação das etapas de análise e desenvolvimento.
-- **/dashboards**: Arquivos relacionados aos dashboards criados.
-- **README.md**: Este arquivo, com a documentação do projeto.
-
-## Como Executar o Projeto
+## Como Executar
 
 1. Clone o repositório:
    ```bash
