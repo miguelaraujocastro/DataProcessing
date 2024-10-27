@@ -1,35 +1,35 @@
-## Situação Socioeconómica e Indicadores de Saúde - Projeto Data Lakehouse
+## Socioeconomic Situation and Health Indicators - Data Lakehouse Project
 
-Projeto realizado no âmbito da Unidade Curricular de Engenharia de Dados para Apoio à Tomada de Decisão. O objetivo é estruturar e analisar dados num Data Lakehouse, focado na **Situação Socioeconómica de uma População e o seu Impacto nos Indicadores de Saúde**.
+Project carried out for the Curricular Unit of Data Engineering to Support Decision Making. The objective is to structure and analyze data in a Data Lakehouse, focused on the **Socioeconomic Situation of a Population and its Impact on Health Indicators**.
 
-### Conjuntos de Dados Utilizados
+### Datasets Used
 
-1. **Estatísticas Populacionais** (conjunto de dados central)
-2. **Álcool** - Impacto do consumo a nível mundial
-3. **Covid-19** - Mortes e casos reportados por país
-4. **Desemprego** - Taxa nos últimos 31 anos
-5. **Salário Mínimo**
+1. **Population Statistics** (central dataset)
+2. **Alcohol** - Impact of consumption worldwide
+3. **Covid-19** - Deaths and reported cases by country
+4. **Unemployment** - Unemployment rate over the last 31 years
+5. **Minimum Wage**
 
-### Estrutura do Projeto
+### Project Structure
 
-O projeto inclui:
+The project includes:
 
-- **Análise de Qualidade dos Dados** e processamento em três camadas:
-  - **Bronze**: Dados brutos
-  - **Silver**: Dados limpos e transformados
-  - **Gold**: Dados prontos para análise
-- **Dashboards** para visualização dos resultados
+- **Data Quality Analysis** and processing in three layers:
+  - **Bronze**: Raw data
+  - **Silver**: Cleaned and transformed data
+  - **Gold**: Data ready for analysis
+- **Dashboards** for visualizing the results
 
-### Organização das Pastas
+### Folder Organization
 
-- **/CSVs**: Dados em formato CSV
-- **/JupyterFiles**: Notebooks de desenvolvimento
-- **/TableauFiles**: Dashboards em Tableau
-- Documentação adicional (diagramas e questões analíticas)
+- **/CSVs**: Data in CSV format
+- **/JupyterFiles**: Development notebooks
+- **/TableauFiles**: Tableau dashboards
+- Additional documentation (diagrams and analytical questions)
 
-### Como Executar
+### How to Run
 
-1. Clone o repositório:
+1. Clone the repository:
    ```bash
-   git clone https://github.com/user/repositorio.git
-   cd repositorio
+   git clone https://github.com/user/repository.git
+   cd repository
