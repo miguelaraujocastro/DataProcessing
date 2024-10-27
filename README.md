@@ -1,6 +1,6 @@
 # Situação Socioeconómica e Indicadores de Saúde - Projeto Data Lakehouse
 
-Projeto realizado no âmbito da Unidade Curricular de Engenharia de Dados para Apoio à Tomada de Decisão. O objetivo é estruturar e analisar dados num Data Lakehouse, com foco na **Situação Socioeconómica de uma População e o seu Impacto nos Indicadores de Saúde**.
+Projeto realizado no âmbito da Unidade Curricular de Engenharia de Dados para Apoio à Tomada de Decisão. O objetivo é estruturar e analisar dados num Data Lakehouse, focado na **Situação Socioeconómica de uma População e o seu Impacto nos Indicadores de Saúde**.
 
 ## Conjuntos de Dados Utilizados
 
