@@ -22,6 +22,7 @@ The project includes:
 
 ### Folder Organization
 
+The project files are contained in the **DataProcessingProject.zip** folder.
 - **/CSVs**: Data in CSV format
 - **/JupyterFiles**: Development notebooks
 - **/TableauFiles**: Tableau dashboards
